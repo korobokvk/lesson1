@@ -1,5 +1,61 @@
-#red-block {
-    background-color: red;
-    width: 200px;
-    height: 200px;
+html {
+  font-size: 16px;
 }
+
+.ems li {
+  font-size: 1.3em;
+}
+
+.rems li {
+  font-size: 1.3rem;
+}
+
+.inline-block {
+  display: inline-block;
+  background-color: green;
+  margin: 10px;
+  /* width: 100%;
+  height: 200px; */
+}
+
+.block {
+  background-color: red;
+}
+/* 
+.hidden {
+  display: none;
+} */
+
+.block,
+.inline-block {
+  width: 200px;
+  height: 200px;
+}
+
+.parent {
+  background-color: red;
+  height: 300px;
+  margin: 20px;
+}
+
+.child {
+  background-color: aqua;
+  height: 300px;
+}
+
+.inline-block:hover {
+  width: 205px;
+  height: 205px;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+span {
+  color: blue;
+  width: 1000px;
+}
+/* 
+.some-text::after {
+  content: "IM_AFTER";
+  color: blueviolet;
+} */
