@@ -1,61 +1,129 @@
-html {
-  font-size: 16px;
+/* .wrapper {
+  background-color: blue;
+  height: 150vh;
 }
 
-.ems li {
-  font-size: 1.3em;
-}
-
-.rems li {
-  font-size: 1.3rem;
-}
-
-.inline-block {
-  display: inline-block;
-  background-color: green;
-  margin: 10px;
-  /* width: 100%;
-  height: 200px; */
-}
-
-.block {
-  background-color: red;
-}
-/* 
-.hidden {
-  display: none;
-} */
-
-.block,
-.inline-block {
+.normal {
   width: 200px;
   height: 200px;
+  background-color: brown;
+  display: inline-block;
 }
 
-.parent {
-  background-color: red;
-  height: 300px;
-  margin: 20px;
+.relative {
+  position: relative;
 }
 
-.child {
-  background-color: aqua;
-  height: 300px;
+.fixed {
+  position: fixed;
+  border: 1px solid rebeccapurple;
+  background-color: burlywood;
+  width: 190px;
+  height: 190px;
 }
 
-.inline-block:hover {
-  width: 205px;
-  height: 205px;
-  background-color: aqua;
-  cursor: pointer;
-}
-
-span {
-  color: blue;
-  width: 1000px;
-}
-/* 
-.some-text::after {
-  content: "IM_AFTER";
-  color: blueviolet;
+.absolute {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  background-color: yellow;
+  width: 150px;
+  height: 150px;
 } */
+
+/* .sticky {
+  position: sticky;
+  top: 1px;
+  background-color: green;
+}
+
+.cool-block {
+  background-color: #fff;
+}
+
+.cool-button {
+  width: 150px;
+  height: 50px;
+  background: rgba(165, 93, 233, 0.1);
+}
+
+.cool-button:hover,
+.cool-div:hover {
+  cursor: pointer;
+  background: rgba(165, 93, 233);
+}
+
+.cool-div {
+  user-select: none;
+  box-sizing: border-box;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid gray;
+  border-left: 2px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  background: rgba(165, 93, 233, 0.1);
+}
+
+.cool-div:active {
+  border-bottom: 2px solid gray;
+  border-right: 2px solid gray;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+}
+
+.margined {
+  margin: 5px;
+}
+
+input:invalid {
+  border: 3px solid red;
+} */
+
+/* .scroll {
+  width: 200px;
+  height: 150px;
+  overflow: auto;
+  border: 1px solid black;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scroll::-webkit-scrollbar-track {
+  background-color: aqua;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+} */
+
+.todo-wrapper {
+  height: 100vh;
+  background-color: skyblue;
+  padding-top: 120px;
+}
+
+body {
+  margin: 0;
+}
+
+.white-box {
+  box-sizing: border-box;
+  padding-top: 90px;
+  background-color: #fff;
+  margin: auto;
+  max-width: 1060px;
+  height: 786px;
+}
+
+.label {
+  text-align: center;
+}
